@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>My News App</ion-title>
+      <ion-buttons end>
+        <button ion-button>
+          <ion-icon name="flower"></ion-icon>
+        </button>
+      </ion-buttons>     
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Welcome</h1>
+  <button ion-button full (click)="openStudentsPage()">Open Students Page</button>
+  <button ion-button round icon-start><ion-icon name="aperture"></ion-icon>News</button>
+  <h1>{{ Quote }}</h1>
+  <p>{{ author }}</p>
+</ion-content>
